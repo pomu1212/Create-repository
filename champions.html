@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>チャンピオン一覧 - Hnds</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #00ffe7;
+    }
+    .champion-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .champion-card {
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .champion-card img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+    .champion-card:hover {
+      transform: scale(1.05);
+    }
+    .champion-card p a {
+      color: #00ffe7;
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>チャンピオン一覧</h1>
+
+  <div class="champion-grid">
+    <div class="champion-card">
+      <a href="champions/ahri.html">
+        <img src="images/ahri.png" alt="アーリ">
+      </a>
+      <p><a href="champions/ahri.html">アーリ</a></p>
+    </div>
+
+    <div class="champion-card">
+      <a href="champions/yasuo.html">
+        <img src="images/yasuo.png" alt="ヤスオ">
+      </a>
+      <p><a href="champions/yasuo.html">ヤスオ</a></p>
+    </div>
+
+  <div class="champion-card">
+      <a href="champions/yasuo.html">
+        <img src="Azir_0" alt="アジール">
+      </a>
+      <p><a href="champions/azir.html">アジール</a></p>
+    </div>
+
+    <!-- 他のチャンピオンもここに追加 -->
+  </div>
+</body>
+</html>
